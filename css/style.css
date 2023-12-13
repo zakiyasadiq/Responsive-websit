@@ -1,0 +1,321 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/*=============menu start===============*/
+.navbar{
+    padding: 22px 0px;
+    border-bottom: none !important;
+    position: absolute !important;
+}
+
+.navbar ul li a{
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover{
+    color: deepskyblue !important;
+
+
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+}
+
+.navbar-toggle:hover{
+    background-color: deepskyblue !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+
+.navbar-inverse{
+    background-color: transparent !important;
+}
+/*=============menu end===============*/
+
+/*====================navigation starts=======================*/
+.location{
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/*====================navigation ends=======================*/
+
+/*====================slider starts=======================*/
+
+.slider{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/sliderimage.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+
+.slider-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+
+}
+
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+
+.icons .fa{
+    font-size: 35px;
+    margin-right: 7px;
+}
+
+.btn1{
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -4px;
+
+}
+
+.btn1:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.btn2{
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+
+}
+
+.btn2:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.social-networks a.fa{
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+
+}
+
+.social-networks a.fa:hover{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #fff;
+    border: 1px solid deepskyblue;
+    
+
+}
+
+.slider .text, .slider .typed-cursor{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.primary{
+    color: orangered;
+}
+
+.typed-cursor{
+    opacity: 1;
+    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*====================slider ends=======================*/
+
+/*====================services styles==========================*/
+
+.service-area{
+    margin-top: 30px;
+
+}
+
+.service-area p{
+    margin-bottom: -5px;
+}
+
+.service-wrap{
+    box-shadow: 0 0 10px rgba(8, 123, 143, 0.901);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    background-color:orangered;
+    color: #fff;
+    transition: all 0.6s ease-in;
+}
+
+.service-wrap:hover{
+    background-color: #34495e;
+    
+}
+
+/*====================services styles end==========================*/
+
+
+/*====================workstyles start===========*/
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.img-wrapper{
+    overflow: hidden;
+}
+
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*====================workstyles ends===========*/
+
+/*====================team styles====================*/
+#team-members img{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+.team-member{
+    margin: 0 15px;
+}
+.team-member{
+    margin: 0 25px;
+
+}
+
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation{
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.social-list{
+    padding-left: 0;
+}
+
+.social-list li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social-list i{
+    font-size: 17px;
+}
+
+.icon-gray{
+    color: #64707b;
+}
+
+/*====================team syles ends=================*/
+
+
+
+
+
+
+
+
+
+
+
